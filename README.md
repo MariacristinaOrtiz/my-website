@@ -14,13 +14,29 @@ Realizar una página a nuestro gusto. El diseño se puede realizar como mejor no
 
 Se muestra la website **REACH COFFE**, es una organización encargada de la  elaboraración de café de la mejor calidad y en aroma sabor, asi mismo, brinda servicios servicios eficientes (y rentables) en todos los procesos de la cadena productiva y agroindustrial del café.
 
+La página esta adaptada tanto para diseño mobile, table como desktop.
+
 Para resolver dicho reto se hizo lo siguiente:
 
-* Se creó un documento HTML donde figura:
+* Se creó un documento HTML donde se observa la aplicación de **grid system** para tener un sistema organizado y una experiencia unforme tanto en vista mobile, tablet y desktop, la division es como sigue:
 
-* Se creó un archivo **main.css** donde se encuentran todos los estilos aplicados a todas la partes del body del documento HTML,
+  - _div.container_: Contiene todas las filas cono sus columnas, en las cuales encontramos los contenidos.
+
+  - _div.row_  : existen tres filas principales:
+
+    - **Primera**: Contiene al _header_, el cual contiene la fila _row menu-bar_,quien contiene las columnas(3) donde se halla 3 etiquetas nav ("reach coffe", "menu amburguesa para vista mobile", "menu para la vista desktop y tablet; y la fila _row background-image_ quien contiene la columna donde esta la imagen de fondo.
+
+    - **Segunda**: Contiene a la _Section.first-section_ donde estan las columnas(dos) que contienen a "what we do" y "contact us ".
+
+    - **Tercera**: Contiene a la _Section.second-section_ el cual tiene un fila donde estan las columnas(3) que contienen a "proces service", "Green Coffee Exportation" y "Our products".
+
+    -**Cuarta**: Contiene al _footer_ dentro de una columna.
+
+* Se creó un archivo **main.css** y se adaptó el archivo **grid.css** facilitado por la junior teacher donde se encuentran todos los estilos aplicados a todas la partes del body del documento HTML. Se utilizó la técnica de css3 **media query** (condicional) para tener una vista uniforme tanto para mobile, tablet, y desktop.
 
 
-## Ejemplo usada para el replicado
+## Estructuras usada para el reto
 
-![my pagina]()
+![my pagina.desktop](assets/docs/desktop.png)
+
+![my pagina.mobile](assets/docs/mobile.png)
