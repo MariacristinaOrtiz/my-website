@@ -5,93 +5,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My-website</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,800" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12">
+      <div class="col-xs-12 col-md-12">
         <header class="header">
-          <div class="row">
-            <div class="col-xs-12">
-              <nav class="nav-left"></nav>
-              <nav class="nav-rigth"></nav>
-              <nav class="nav-rigth">
+          <div class="row menu-bar">
+            <div class="col-xs-offset-1 col-xs-9 col-sm-4 col-md-6">
+              <nav class="nav-left">REACH COFFE</nav>
+            </div>
+            <div class="col-xs-2 display-none-desktop">
+              <nav class="nav-rigth"><i class="fa fa-bars" aria-hidden="true"></i></nav>
+            </div>
+            <div class="col-md-5 col-sm-7 display-none-mobile">
+              <nav class="nav-rigth view-desktop">
                 <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </nav>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <section class="background-image"></section>
+              <section class="background-image">
+                <div class=" col-xs-12 text-center">
+                  <h1 class="header-text">Reach Coffee</h1>
+                  <h3 class="header-text">an unforgettable coffee</h3>
+                </div>
+              </section>
             </div>
           </div>
         </header>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 padding-desktop">
         <section class="section-first">
-          <div class="col-xs-12">
-            <h1></h1>
-            <p></p>
-            <div><button class="call-action"></button></div>
+          <div class="col-xs-12 col-sm-8 col-md-9 padding padding-tablet text-center">
+            <h1 class="services">What We Do</h1>
+            <p>We are a company constituted by coffee cooperatives, dedicated to provide technical-productive, financial, agroindustrial and commercial services, which facilitate the access of producer organizations to the national and international market, through the manufacture of finished products and / or the export of their coffee</p>
+            <p>Sustainably increase the quality and volume of storage and commercial offer of green coffee destined to markets of differentiated quality (organic and / or special).</p>
+            <div><button class="call-action">know us more</button></div>
           </div>
-          <div class="col-xs-12">
-            <h1></h1>
-            <p></p>
-            <p></p>
-            <p><a href="#"></a> </p>
+          <div class="col-xs-12 col-sm-4 col-md-3 padding text-center">
+            <h1 class="services">Contact Us</h1>
+            <p>Reach Coffe</p>
+            <p>Calle 20, Urb.Corpac San Isidro</p>
+            <p>Lima-Perú</p>
+            <p>phone: (+51)(01)450-4005</p>
+            <p><a class="contact"href="#">reachcoffe@gmail.com</a></p>
           </div>
         </section>
       </div>
     </div>
+
     <div class="row">
       <div class="col-xs-12">
         <section class="section-second">
           <div class="row">
-            <div class="col-xs-12">
-              <figure></figure>
+            <div class="col-xs-12 col-md-4  padding-desktop padding text-center ">
+              <figure><img src="assets/imgs/proces.jpg" alt="proces"></figure>
               <div class="">
-                <h1></h1>
-                <p></p>
+                <h1  class="services">Process Service</h1>
+                <p>Reach Coffe provides process, quality control and storage services for conventional and organic coffee. It has a modern infrastructure and a well-trained technical staff that guarantees an efficient service.</p>
               </div>
-              <div class=""><button></button></div>
+              <div class=""><button><a href="#">Find out more...</a></button></div>
             </div>
-            <div class="col-xs-12">
-              <figure></figure>
+            <div class="col-xs-12 col-md-4 padding-desktop padding text-center">
+              <figure><img src="assets/imgs/exportacion.jpg" alt="exportacion"></figure>
               <div class="">
-                <h1></h1>
-                <p></p>
+                <h1 class="services">Green Coffee Exportation</h1>
+                <p>Reach Coffee has the experience and commercial prestige that allows access to market segments with better price levels for its exportable offer.</p>
               </div>
-              <div class=""><button></button></div>
+              <div class=""><button><a href="#">Find out more...</a></button></div>
             </div>
-            <div class="col-xs-12">
-              <figure></figure>
+            <div class="col-xs-12 col-md-4 padding text-center">
+              <figure><img src="assets/imgs/productos.jpg" alt="productos"></figure>
               <div class="">
-                <h1></h1>
-                <p></p>
+                <h1 class="services">Our products</h1>
+                <p>Reach Coffee has started the process of introducing agroindustrial products for the national market, we are currently incorporating territorial distributors for the main regions of the country.</p>
               </div>
-              <div class=""><button></button></div>
+              <div class=""><button><a href="#">Find out more...</a></button></div>
             </div>
           </div>
         </section>
       </div>
     </div>
-    <div class="row">
-      <dic class="col-xs-12">
-        <footer></footer>
-      </dic>
+
+    <div class="row footer">
+      <div class="col-xs-offset-3 col-xs-6 col-md-offset-5 col-md-6 col-sm-offset-5 col-sm-6 text-center">
+        <footer>Copyrigth © your Website 2017</footer>
+      </div>
     </div>
   </div>
-
   <script type="text/javascript" src="js/app.js"> </script>
 </body>
 </html>

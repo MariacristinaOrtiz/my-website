@@ -5,3 +5,158 @@
   margin: 0;
   padding: 0;
 }
+/* Para dispositivo mobile*/
+/* etiquetas reutilizables*/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+h1 {
+  font-size: 4.2rem;
+  font-weight: 400;
+}
+.padding {
+  padding: 3rem 3rem 0 3rem;
+}
+.services {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+button {
+  background-color: rgb(62, 123, 72);
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+p {
+ line-height: 1.5;
+ font-size: 1rem;
+}
+img {
+  max-width: 100%;
+  width: 370px;
+  height: 310px;
+}
+figure {
+  background: rgb(220, 220, 220);
+  padding: 0.85rem 0 0.7rem 0;
+}
+/* Fin de etiquetas reutilizables*/
+/* Estilos a header*/
+header div div.display-none-mobile  {
+  display: none;
+}
+header div.menu-bar {
+background-color: rgb(62, 123, 71);
+padding: 1rem;
+color: #fff;
+font-weight: 800;
+z-index: 1000;
+width: 100%;
+position: fixed;
+font-size: 1.4rem;
+}
+.nav-rigth {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.background-image {
+  background-image: url('../assets/imgs/header2.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  max-width: 100%;
+  height: 350px;
+  color: #fff;
+  filter: grayscale(25%);
+}
+.header-text {
+  line-height: 2;
+  transform: translateY(45%);
+}
+h3 {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+a.contact {
+  color: rgb(0, 0, 255)
+}
+.footer {
+  background-color: rgb(62, 123, 71);
+  margin-top: 2.5rem;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+/* Estilos solo para desktop*/
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 1.15rem;
+}
+ul li a:hover {
+  color: rgb(220, 220, 220);
+}
+
+@media (min-width: 768px) {
+  header div div.display-none-mobile {
+    display: block;
+  }
+  header div div.display-none-desktop {
+    display: none;
+  }
+  .text-center {
+    text-align: justify;
+  }
+  .header-text, figure  {
+    text-align: center;
+  }
+  .padding-tablet {
+    padding-right: 0;
+  }
+  .footer {
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+ .services {
+   text-align: left;
+   font-size: 2rem;
+   margin: 0.8rem 0;
+   font-weight: 600;
+ }
+ figure {
+   padding: 0.4rem 0.2rem 0.22rem 0.2rem;
+ }
+ .background-image {
+   height: 440px;
+ }
+ .header-text {
+   transform: translateY(55%);
+ }
+ h1 {
+   font-size: 6rem;
+ }
+ h3 {
+   font-size: 3rem;
+ }
+ .footer {
+   font-size: 1rem;
+   margin-top: 2.3rem;
+ }
+ section {
+   padding: 2rem 4.5rem;
+ }
+}
