@@ -15,7 +15,7 @@ a {
   text-align: center;
 }
 h1 {
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 .padding {
@@ -43,12 +43,11 @@ p {
 }
 img {
   max-width: 100%;
-  width: 370px;
+  width: 384px;
   height: 310px;
 }
 figure {
-  background: rgb(220, 220, 220);
-  padding: 0.85rem 0 0.7rem 0;
+  border-bottom: 4px solid rgb(180, 180, 180);
 }
 /* Fin de etiquetas reutilizables*/
 /* Estilos a header*/
@@ -80,11 +79,11 @@ font-size: 1.4rem;
   filter: grayscale(25%);
 }
 .header-text {
-  line-height: 2;
-  transform: translateY(45%);
+  line-height: ;
+  transform: translateY(130%);
 }
 h3 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 a.contact {
@@ -108,7 +107,12 @@ ul li {
 ul li a:hover {
   color: rgb(220, 220, 220);
 }
-
+@media (min-width: 430px) {
+  .header-text {
+    line-height: 2 ;
+    transform: translateY(100%);
+  }
+ }
 @media (min-width: 768px) {
   header div div.display-none-mobile {
     display: block;
@@ -122,6 +126,10 @@ ul li a:hover {
   .header-text, figure  {
     text-align: center;
   }
+  .header-text {
+  line-height: 2;
+   transform: translateY(90%);
+ }
   .padding-tablet {
     padding-right: 0;
   }
@@ -138,13 +146,15 @@ ul li a:hover {
    font-weight: 600;
  }
  figure {
-   padding: 0.4rem 0.2rem 0.22rem 0.2rem;
+   /*padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+   background: rgb(180, 180, 180);*/
  }
  .background-image {
    height: 440px;
  }
  .header-text {
-   transform: translateY(55%);
+  line-height: 2;
+   transform: translateY(45%);
  }
  h1 {
    font-size: 6rem;

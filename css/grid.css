@@ -219,6 +219,9 @@
 }
 
 @media (min-width: 992px) {
+  .col-sm-offset-3 {
+    margin-left: 0;
+  }
   .col-md-1 {
     width: 8.33333333%;
   }
