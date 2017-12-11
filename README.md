@@ -14,7 +14,7 @@ Realizar una página a nuestro gusto. El diseño se puede realizar como mejor no
 
 Se muestra la website **REACH COFFE**, es una organización encargada de la  elaboración de café de la mejor calidad y en aroma sabor, asi mismo, brinda servicios servicios eficientes (y rentables) en todos los procesos de la cadena productiva y agroindustrial del café.
 
-La página esta adaptada tanto para diseño mobile, table como desktop.
+La página esta adaptada tanto para diseño mobile, tablet, ipad como desktop.
 
 Para resolver dicho reto se hizo lo siguiente:
 
@@ -35,7 +35,7 @@ Para resolver dicho reto se hizo lo siguiente:
 * Se creó un archivo **main.css** y se adaptó el archivo **grid.css** facilitado por la junior teacher donde se encuentran todos los estilos aplicados a todas la partes del body del documento HTML. Se utilizó la técnica de css3 **media query** (condicional) para tener una vista uniforme tanto para mobile, tablet, y desktop.
 
 
-## Estructuras usada para el reto
+## Estructuras usadas para el reto
 
 ![my pagina.desktop](assets/docs/desktop.png)
 
