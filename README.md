@@ -24,7 +24,7 @@ Para resolver dicho reto se hizo lo siguiente:
 
   - _div.row_  : existen tres filas principales:
 
-    - **Primera**: Contiene al _**header**_, el cual contiene la fila _row menu-bar_,quien contiene las columnas(3) donde se halla 3 etiquetas nav ("reach coffe", "menu amburguesa para vista mobile", "menu para la vista desktop y tablet); y la fila _row background-image_ quien contiene la columna donde esta la imagen de fondo.
+    - **Primera**: Contiene al _**header**_, el cual contiene la 2 fila secundarias _row menu-bar_,quien contiene las columnas(3) donde se hallan 3 etiquetas _nav_ ("reach coffe", "menu amburguesa para vista mobile", "menu para la vista desktop y tablet); y la fila _row background-image_ quien contiene la columna donde esta la imagen de fondo con un texto "reach coffe an unforgettable experience".
 
     - **Segunda**: Contiene a la _**Section.first-section**_ donde estan las columnas(dos) que contienen a "what we do" y "contact us ".
 

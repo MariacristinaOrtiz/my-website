@@ -89,6 +89,9 @@ h3 {
 a.contact {
   color: rgb(0, 0, 255)
 }
+a:hover {
+  color: rgb(220, 220, 220);
+}
 .footer {
   background-color: rgb(62, 123, 71);
   margin-top: 2.5rem;
